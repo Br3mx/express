@@ -1,0 +1,62 @@
+# Ignoruj pliki wygenerowane przez IDE lub edytory tekstu
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.lock
+.DS_Store
+
+# Ignoruj pliki wygenerowane podczas budowy projektu
+/node_modules/
+/build/
+/dist/
+
+# Ignoruj pliki konfiguracyjne środowiska
+.env
+.env.local
+.env.*.local
+
+# Ignoruj pliki do debugowania lub testowania
+*.log
+*.log.*
+logs
+*.cache
+*.crash
+
+# Ignoruj pliki tymczasowe lub backup
+*.bak
+*.backup
+*.tmp
+
+# Ignoruj pliki wygenerowane przez różne narzędzia i języki programowania
+*.o
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.so.*
+*.a
+*.pyc
+*.pyo
+*.rej
+*.dll
+*.exe
+*.obj
+*.out
+*.pid
+*.sql
+*.zip
+*.gz
+*.tar.gz
+*.bz2
+*.7z
+*.tgz
+*.pdf
+
+# Ignoruj pliki zależności projektu
+yarn.lock
+package-lock.json
